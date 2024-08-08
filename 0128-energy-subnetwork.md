@@ -32,7 +32,7 @@ The ENERGY subnetwork is a practical expansion for Helium. It builds on the exis
 
 Global energy is shifting from centralized production, dominated by large-scale power plants, to a decentralized model where energy is produced closer to where it is consumed, with solar leading the charge.
 
-However, existing grid infrastructure, designed for centralized production, struggles to effectively integrate this dispersed and variable power. This is being addressed via coordinating Decentralized Energy Resources (DERs), such as solar pv and battery storage. However, no system exists to adequately incentivize and support widespread DER coordination at a homeowner level.
+However, existing grid infrastructure, designed for centralized production, struggles to effectively integrate this dispersed and variable power. This is being addressed by coordinating Decentralized Energy Resources (DERs), such as solar PV and battery storage. However, no system exists to adequately incentivize and support widespread DER coordination at a homeowner level.
 
 There are already institutional markets for power management–often called _Demand and Response_ or _Ancillary Services_. However, these markets are generally unavailable to homeowners, because each individual energy resource is too small to qualify for participation. When these gated systems do permit participation, they disproportionately reward the centralized entities which manage them.
 
@@ -40,7 +40,7 @@ There are already institutional markets for power management–often called _Dem
 
 The ENERGY subnetwork seeks to incentivize and reward the efficient grid integration of renewable energy production. With an ENERGY-capable gateway, users will be able to onboard energy resources from a variety of manufacturers, activating and rewarding a network of decentralized power generation, responsive energy storage, and grid management.
 
-Initially we're connecting small scale Solar Photovoltaic (PV) systems and Batteries. Batteries are incredibly effective at offsetting the variability of weather-dependent renewable energy production and also play a key role in stabilizing the power grid in real time.
+Initially, we're connecting small scale Solar Photovoltaic (PV) systems and Batteries. Batteries are incredibly effective at offsetting the variability of weather-dependent renewable energy production and also play a key role in stabilizing the power grid in real time.
 
 These _Decentralized Energy Resources_ (DER) would be coordinated in what is known as a _Virtual Power Plant_ (VPP), a collection of disparate small- to medium-scale DERs. These can be energy generation resources, loads, or energy storage. For example, Solar PV systems, electric pool heaters, and batteries. These units are coordinated, virtually, to function as a single power plant.
 
@@ -117,7 +117,7 @@ Allocation of ENERGY tokens prioritizes emission to the community of DER hosts f
 
 There will be a max supply of 250B ENERGY.
 
-The proposal is for halving of ENERGY issuance to occur every 2 years.
+The proposal is for the halving of ENERGY issuance to occur every 2 years.
 
 We propose that 60B ENERGY be reserved for providing startup capital for Srcful AB and investors, required to launch the ENERGY subnetwork and develop the technical and operational infrastructure needed for its creation. These tokens will be minted over a 36-month period and will have a minimum lockup of 12 months after the token emission date. These tokens will be emitted on a daily basis.
 
@@ -179,7 +179,7 @@ flowchart LR
 
 ### Baseline Rewards
 
-The ENERGY subnetwork proposes an incentive system designed to optimize the participation and contribution of DERs. This approach aims to strengthen and connect more DERs, helping to integrate renewable energy into the grid effectively. The ENERGY subnetwork reward structure draws inspiration from DIMO's successful [Baseline Issuance model](https://docs.dimo.zone/governance/dip2), and rewards DERs for their consistent connectivity and high quality contribution to the network. This structured reward system is crucial for building a reliable data foundation that enables in-depth knowledge of the grid and new service proposals.
+The ENERGY subnetwork proposes an incentive system designed to optimize the participation and contribution of DERs. This approach aims to strengthen and connect more DERs, helping to integrate renewable energy into the grid effectively. The ENERGY subnetwork reward structure draws inspiration from DIMO's successful [Baseline Issuance model](https://docs.dimo.zone/governance/dip2) and rewards DERs for their consistent connectivity and high-quality contribution to the network. This structured reward system is crucial for building a reliable data foundation that enables in-depth knowledge of the grid and new service proposals.
 
 Baseline rewards for an online DER are defined in three parts based on the following principles:
 
@@ -291,7 +291,7 @@ Ancillary services do not have a fixed price; rather, their prices are determine
 
 Clients pay the Service Provider for the right to control an aggregation of DERs from the network. The Service Provider pays at least 80% to the DER hosts participating in the service by burning HNT into Data Credits. Service provider may retain 20% as a service fee.
 
-In the years 2023-2024, the average price across several European and US markets ranges from $10-40 USD per hour for a portfolio of 1 MW controllable resources. As a rough example of the historical market, a standard household with a 10 kW battery (a typical battery installation) could range between $2.4 - $9.6 per day ($876 - $3504 per year), equivalent to 240 000 - 960 000 data credits (DC) burn per day. There are already well known services available such as the [Tesla Demand Side Grid Support](https://www.tesla.com/support/energy/virtual-power-plant/dsgs) that compensates battery owners with up to $350 for a year. The ENERGY subnetwork rewards will be equivalent or higher depending on region.
+In the years 2023-2024, the average price across several European and US markets ranges from $10-40 USD per hour for a portfolio of 1 MW controllable resources. As a rough example of the historical market, a standard household with a 10 kW battery (a typical battery installation) could range between $2.4 - $9.6 per day ($876 - $3504 per year), equivalent to 240 000 - 960 000 data credits (DC) burn per day. There are already well known services available such as the [Tesla Demand Side Grid Support](https://www.tesla.com/support/energy/virtual-power-plant/dsgs) that compensates battery owners with up to $350 for a year. The ENERGY subnetwork rewards will be equivalent or higher depending on the region.
 
 Solar PV systems are only eligible for curtailment during daylight hours with safety margins depending on the weather, making the reward significantly lower than for systems including batteries.
 
