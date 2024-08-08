@@ -330,7 +330,7 @@ The ENERGY network currently achieves DC burn by the following:
 
 We have implemented a $10 USD onboarding fee in DC due to the current structure of the _A_ variable in the Utility score. For future subnetworks, Srcful believes that the _A_ score should be reconsidered in favor of using DC service burn as the proxy for network value, as the current onboarding fee may not be optimal for new subnetworks joining on fair terms.
 
-# Rationale
+## Rationale
 
 As decentralized physical infrastructure has risen, token incentives are a path forward when it comes to coordinating the deployment of physical resources. Solar and battery storage, as a residential asset class, will benefit from the people-powered growth and management that comes with web3.
 
