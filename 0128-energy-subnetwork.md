@@ -367,7 +367,7 @@ The ENERGY subnetwork will also help strengthen the IOT subnetwork as the softwa
 
 Applying the governance structure of the Helium community to power systems will increase the numbers of those involved in the influence and buildout of yet another very critical part of our infrastructure. Communication is essential for both sensors and people, but electrical energy is at the core of a modern society. Now is the time to be part of the start in the shift to a new model that is operated by the people - for the people.
 
-# Stakeholders
+## Stakeholders
 
 This HIP proposes a new subnetwork as such has an overall impact the entire ecosystem. Specifically:
 
