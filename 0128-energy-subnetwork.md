@@ -376,7 +376,7 @@ This HIP proposes a new subnetwork as such has an overall impact the entire ecos
 - IoT Subnetwork - will be affected by HNT emission sharing, dual mining capabilities, and as a utility for sensor data transportation.
 - Mobile Subnetwork - will be affected by HNT emission sharing.
 
-# Implementation
+## Implementation
 
 Onboarding of an ENERGY gateway will be done using the current Helium Wallet App. A specific ENERGY web app will be developed to handle onboarding and configuration of DERs, etc. The ENERGY web app will utilize the Helium Wallet App for authentication and signing of DER-specific settings.
 
