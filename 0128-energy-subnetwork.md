@@ -243,7 +243,7 @@ DER Hosts opts DERs into the program after a successful Qualification (Value pri
 
 Clients receive staked, qualified, controllable DERs from the Service Provider and bid these into the market (typically one day in advance). The winning bids generated revenue are allocated from the Service Contract Rewards (via HNT DC burn mechanism) to the DER Hosts who have staked controllable DERs (Value principle Level 3).
 
-#### How it works for Battery storage
+#### How It Works for Battery Storage
 
 Batteries are flexible and can help regulate the grid by both consumption and production of energy, as an example; a battery with 0 % charge can only charge from the grid, and a battery with 100 % can only discharge power to the grid - in order to be flexible both ways the state of charge needs to be in the mid-range. Batteries are not affected by weather conditions or time of day and are as such a more valuable resource for the network.
 
@@ -260,7 +260,7 @@ During a power outage:
 1. The DER Host regains full control of their battery for home backup purposes.
 2. This emergency use does not violate staking rules or affect rewards.
 
-#### How it works for Solar PV
+#### How It Works for Solar PV
 
 Solar PV systems can contribute to frequency reserves by decreasing (curtailing) their production based on grid needs. Unlike batteries, solar panels can not store energy directly but can temporarily reduce output during production hours. Typically, this happens for a maximum of 20 minutes and occurs a few times per year, but compensation is provided hourly since the value lies in being a controllable, connected curtailment reserve. There can also be other reasons for decreasing the power production from PV such as negative prices on the electricity market (in this case you’re paying to deliver energy to the grid).
 
@@ -310,23 +310,25 @@ Oracles within the ENERGY subnetwork ensures data integrity, pricing accuracy, a
 - Calculate and distribute rewards to DER hosts based on the baseline rewards.
 
 ## ENERGY Subnetwork Governance
+
 The ENERGY subnetwork will use the current vote escrowed token model for Helium tokens and HNT stakers will be able to delegate HNT to ENERGY as they are able to delegate to IOT and MOBILE. ENERGY token holders will be able to lock up ENERGY tokens as veENERGY voting power for ENERGY subnetwork governance. There are no rewards for locking up ENERGY as veENERGY at this time.
 
 As a subnetwork in Helium, ENERGY will participate in the network utility score described in [HIP 51's "Omni Protocol PoC Incentive Model" section](https://github.com/helium/HIP/blob/main/0051-helium-dao.md#omni-protocol-poc-incentive-model) and subsequent [HIP 88](https://github.com/helium/HIP/blob/main/0088-adjustment-of-dao-utility-a-score.md).
-* ${V}$ is the staked HNT delegated to ENERGY
-* ${D}$ is the DCs burned
-* ${A}$ is the $10 Onboarding Fee paid per gateway
 
-### ENERGY DC burn 
+- ${V}$ is the staked HNT delegated to ENERGY
+- ${D}$ is the DCs burned
+- ${A}$ is the $10 Onboarding Fee paid per gateway
+
+### ENERGY DC Burn
+
 The ENERGY network currently achieves DC burn by the following:
-* Payment for ENERGY services, currently control of a VPP by a service provider on the ENERGY network
-* Onboard of a Hotspot/Gateway on the ENERGY network
 
+- Payment for ENERGY services, currently control of a VPP by a service provider on the ENERGY network
+- Onboard of a Hotspot/Gateway on the ENERGY network
 
 ### Note on Current Onboarding Fee
 
-We have implemented a $10 USD onboarding fee in DC due to the current structure of the *A* variable in the Utility score. For future subnetworks, Srcful believes that the *A* score should be reconsidered in favor of using DC service burn as the proxy for network value, as the current onboarding fee may not be optimal for new subnetworks joining on fair terms.
-
+We have implemented a $10 USD onboarding fee in DC due to the current structure of the _A_ variable in the Utility score. For future subnetworks, Srcful believes that the _A_ score should be reconsidered in favor of using DC service burn as the proxy for network value, as the current onboarding fee may not be optimal for new subnetworks joining on fair terms.
 
 # Rationale
 
@@ -366,14 +368,17 @@ The ENERGY subnetwork will also help strengthen the IOT subnetwork as the softwa
 Applying the governance structure of the Helium community to power systems will increase the numbers of those involved in the influence and buildout of yet another very critical part of our infrastructure. Communication is essential for both sensors and people, but electrical energy is at the core of a modern society. Now is the time to be part of the start in the shift to a new model that is operated by the people - for the people.
 
 # Stakeholders
+
 This HIP proposes a new subnetwork as such has an overall impact the entire ecosystem. Specifically:
-* Helium Foundation - will need to support and provide resources to a new subnetwork.
-* Srcful AB - will need to be the first Service Provider and implement the subnetwork within the bounds of the Helium subnetwork structure.
-* IoT Subnetwork - will be affected by HNT emission sharing, dual mining capabilities, and as a utility for sensor data transportation.
-* Mobile Subnetwork - will be affected by HNT emision sharing.
+
+- Helium Foundation - will need to support and provide resources to a new subnetwork.
+- Srcful AB - will need to be the first Service Provider and implement the subnetwork within the bounds of the Helium subnetwork structure.
+- IoT Subnetwork - will be affected by HNT emission sharing, dual mining capabilities, and as a utility for sensor data transportation.
+- Mobile Subnetwork - will be affected by HNT emission sharing.
 
 # Implementation
-Onboarding of an ENERGY gateway will be done using the current Helium Wallet App. A specific ENERGY webb app will be developed to handle onboarding and configuration of DERs, etc. The ENERGY webb app will utilize the Helium Wallet App for authentication and signing of DER specific settings. 
+
+Onboarding of an ENERGY gateway will be done using the current Helium Wallet App. A specific ENERGY web app will be developed to handle onboarding and configuration of DERs, etc. The ENERGY web app will utilize the Helium Wallet App for authentication and signing of DER-specific settings.
 
 Srcful AB and Helium Foundation will be responsible for the implementation of the ENERGY network.
 
